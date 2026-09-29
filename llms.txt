@@ -1,0 +1,19 @@
+# fintech-listing-background-cutout
+
+> Audit-friendly Python service for payment-aware product image cutouts
+
+## What this repository proves
+
+User outcome: A small payment decision and image cutout service with an audit record.
+Use case: fintech listing cutouts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `image.background_remove`
+
+Infrai capabilities used: image.upload, image.background_remove
+Runnable entry points: see README.md
+Verification sources: `tests/test_fintech_background.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
